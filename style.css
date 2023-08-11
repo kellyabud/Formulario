@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Alegreya', serif;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    background:linear-gradient(45deg, #8e2de2, #4a00e0);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: black;
+    min-width: 280px;
+    min-height: 45vh;
+    padding: 2rem;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+}
+
+h2{
+    font-weight: 800;
+    margin-bottom: 2rem;
+    position: relative;
+    color: white;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input-field{
+    margin-bottom: 1,5rem;
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: relative;
+    
+    
+
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+    background-color: #8e54e9;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 5px;
+    
+}
+
+
+
+.input-field [type="text"]{
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+    border: none;
+    height: 30px;
+    
+    
+    
+    
+}
+
+.input-field [type="password"]{
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+    border: none;
+    height:30px ;
+    
+    
+}
+
+.input-field > ::placeholder{
+
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+    
+}
+
+  
+
+
+    
+    
+  
